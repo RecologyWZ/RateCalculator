@@ -1,0 +1,139 @@
+  	/*
+	Copyright 2018 Recology™. Licensed under GPL-3.0-only
+	See license text at https://www.gnu.org/licenses/gpl-3.0.en.html
+	 
+	This file is part of Recology Rate Calculator.
+	 
+	Recology Rate Calculator is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, version 3 of the License.
+	 
+	Recology Rate Calculator is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+	 
+	Recology, Inc., hereby disclaims all copyright interest in the program "Recology Rate Calculator" (which calculates rates) written by various authors.
+	signature of Richard Cruz, 1 February 2018
+	Richard Cruz, Systems Architect and Support Manager
+	
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+	SOFTWARE.
+	*/
+body {
+  background: #fff;
+}
+
+.remove {
+  background-image: url('/calculator/img/delete.gif');
+}
+.copy_to_new_services {
+  background-image: url('/calculator/img/table_go.png');
+}
+.delete_all {
+  background-image: url('/calculator/img/table_delete.png');
+}
+.email {
+  background-image: url('/calculator/img/email.png');
+  margin-top: 1px;
+}
+
+.rTable {
+  font-family: Tahoma;
+  font-size: 11px;
+  width: 100%;
+}
+
+.rTable {
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+.rTable th {
+	background-color:#BED4EF;
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #999999;
+  text-align: left;
+}
+.rTable td {
+	background-color:#EBEBED;
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: #999999;
+}
+
+/*
+.rTable th {
+	background-image:url('../img/cell-blue.jpg');
+}
+.rTable td {
+	background-image:url('../img/cell-grey.jpg');
+}
+*/
+
+.rTable .blank {
+  background: transparent;
+  border: none;
+}
+
+.x-mask.splashscreen {
+    background-color: white;
+    opacity: 1;
+}
+
+.x-mask-msg.splashscreen,
+.x-mask-msg.splashscreen div {
+    font-size: 16px;
+    padding: 30px 5px 5px 5px;
+    border: none;
+    background-color: transparent;
+    background-position: top center;
+}
+
+.x-message-box .x-window-body .x-box-inner {
+    min-height: 110px !important;
+}
+
+.x-splash-icon {
+    /* Important required due to the loading symbols CSS selector */
+    background-image: url('/calculator/img/logo.jpg') !important;
+    width: 333px;
+    height: 100px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.premium {
+  display: none;
+}
+
+#arc_logo {
+  width: 401px;
+  height: 100px;
+  background: url('/calculator/img/logo.jpg');
+}
+
+#r_logo {
+  width: 210px;
+  height: 100px;
+}
+
+.rTotal {
+  background: #D8D8D8 !important;
+}
+
+/* hiding ACAP */
+#panel-1010 { display: none; }
+#panel-1065 { display: none; }
